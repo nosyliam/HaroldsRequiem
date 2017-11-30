@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources/>
+<resources>
+  <resource name="harold" type="GROUP"/>
+  <resource name="objects" type="GROUP"/>
+  <resource name="items" type="GROUP"/>
+  <resource name="enemies" type="GROUP"/>
+  <resource name="boss" type="GROUP"/>
+  <resource name="gui" type="GROUP"/>
+</resources>

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="game_tick" type="RESOURCE"/>
+  <resource name="ticks" type="GROUP"/>
+  <resource name="cutscenes" type="GROUP"/>
+  <resource name="util" type="GROUP"/>
+  <resource name="draw" type="GROUP"/>
+  <resource name="ai" type="GROUP"/>
+  <resource name="hud" type="GROUP"/>
+  <resource name="room" type="GROUP"/>
+  <resource name="data" type="GROUP"/>
+  <resource name="animations" type="GROUP"/>
 </resources>
