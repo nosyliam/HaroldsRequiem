@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="frames_harold" type="RESOURCE"/>
+  <resource name="get_frame_ranges" type="RESOURCE"/>
   <resource name="get_anim_frame" type="RESOURCE"/>
-  <resource name="set_anim" type="RESOURCE"/>
+  <resource name="play_anim" type="RESOURCE"/>
 </resources>

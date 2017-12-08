@@ -1,1 +1,2 @@
-exit;
+total_ticks += 1;
+
