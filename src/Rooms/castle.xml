@@ -114,6 +114,14 @@
     </tile>
     <tile>
       <background>castle_interior</background>
+      <backgroundPosition x="24" y="312"/>
+      <roomPosition x="72" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000001</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
       <backgroundPosition x="24" y="336"/>
       <roomPosition x="72" y="720"/>
       <size height="24" width="24"/>
@@ -322,14 +330,6 @@
     </tile>
     <tile>
       <background>castle_interior</background>
-      <backgroundPosition x="144" y="240"/>
-      <roomPosition x="120" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
       <backgroundPosition x="168" y="240"/>
       <roomPosition x="144" y="528"/>
       <size height="24" width="24"/>
@@ -404,14 +404,6 @@
       <background>castle_interior</background>
       <backgroundPosition x="168" y="264"/>
       <roomPosition x="144" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="144" y="264"/>
-      <roomPosition x="120" y="552"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>
@@ -642,88 +634,8 @@
     </tile>
     <tile>
       <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="24" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="48" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="72" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="240" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="264" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="288"/>
-      <roomPosition x="288" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
       <backgroundPosition x="0" y="264"/>
       <roomPosition x="0" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="264"/>
-      <roomPosition x="48" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="264"/>
-      <roomPosition x="72" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="264"/>
-      <roomPosition x="240" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="264"/>
-      <roomPosition x="264" y="528"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>
@@ -1572,46 +1484,6 @@
       <background>castle_interior</background>
       <backgroundPosition x="192" y="0"/>
       <roomPosition x="168" y="192"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="432"/>
-      <roomPosition x="96" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="408"/>
-      <roomPosition x="96" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="0" y="432"/>
-      <roomPosition x="216" y="552"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="0" y="408"/>
-      <roomPosition x="216" y="528"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>castle_interior</background>
-      <backgroundPosition x="24" y="264"/>
-      <roomPosition x="24" y="528"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>
@@ -3580,6 +3452,142 @@
       <background>castle_interior</background>
       <backgroundPosition x="24" y="312"/>
       <roomPosition x="264" y="168"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="72" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="96" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="48" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="24" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="216" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="264" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="264"/>
+      <roomPosition x="240" y="528"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="24" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="72" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="48" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="96" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="216" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="240" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="264" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="24" y="288"/>
+      <roomPosition x="288" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="144" y="264"/>
+      <roomPosition x="120" y="552"/>
+      <size height="24" width="24"/>
+      <depth>1000000</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>castle_interior</background>
+      <backgroundPosition x="144" y="240"/>
+      <roomPosition x="120" y="528"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>

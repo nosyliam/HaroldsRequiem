@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="init_avatar" type="RESOURCE"/>
+  <resource name="init_game" type="RESOURCE"/>
   <resource name="game_tick" type="RESOURCE"/>
+  <resource name="draw_tick" type="RESOURCE"/>
   <resource name="ticks" type="GROUP"/>
   <resource name="cutscenes" type="GROUP"/>
   <resource name="util" type="GROUP"/>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <room>
   <caption/>
-  <size height="512" width="512"/>
+  <size height="784" width="784"/>
   <grid>
     <isometric>false</isometric>
     <snap x="16" y="16"/>
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode/>
+  <creationCode>global.game = instance_create(0, 0, controller_main)
+</creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
   <backgrounds>
