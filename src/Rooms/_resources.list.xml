@@ -3,4 +3,5 @@
   <resource name="TitleScreen" type="RESOURCE"/>
   <resource name="village" type="RESOURCE"/>
   <resource name="castle" type="RESOURCE"/>
+  <resource name="test" type="RESOURCE"/>
 </resources>

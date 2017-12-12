@@ -1,8 +1,6 @@
-var fmin, var fmax;
-case argument0:
-    switch TYPE_PLAYER:
-        fmin, fmax = frames_harold(argument1)
-        return fmin, fmax;
-    switch TYPE_ENEMY:
+switch (argument0) {
+    case TYPE_PLAYER:
+        frames_harold(argument1)
+    case TYPE_ENEMY:
         break;
-        
+}

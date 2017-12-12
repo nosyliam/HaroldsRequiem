@@ -8,7 +8,8 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode/>
+  <creationCode>init_hud();
+</creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
   <backgrounds>
@@ -9268,14 +9269,6 @@
       <background>village1</background>
       <backgroundPosition x="0" y="0"/>
       <roomPosition x="744" y="192"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>village1</background>
-      <backgroundPosition x="0" y="0"/>
-      <roomPosition x="768" y="336"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>
