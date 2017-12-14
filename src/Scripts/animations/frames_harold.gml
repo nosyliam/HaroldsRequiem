@@ -12,7 +12,12 @@ switch (argument0) {
         }
         break;
     case ANIM_NEUTRAL:
-        break;
+        switch (argument1) { 
+            case 1: return combine_frames(1, 1); break;
+            case 2: return combine_frames(25, 25); break;
+            case 3: return combine_frames(37, 37); break;
+            case 4: return combine_frames(13, 13); break;
+        }
     default:
         break;
 }
