@@ -3,8 +3,5 @@
   <constant name="TYPE_PLAYER" value="1"/>
   <constant name="TYPE_ENEMY" value="2"/>
   <constant name="ANIM_NEUTRAL" value="100"/>
-  <constant name="ANIM_WALK_FWD" value="101"/>
-  <constant name="ANIM_WALK_BACK" value="102"/>
-  <constant name="ANIM_WALK_LEFT" value="103"/>
-  <constant name="ANIM_WALK_RIGHT" value="104"/>
+  <constant name="ANIM_WALK" value="101"/>
 </constants>

@@ -8,7 +8,7 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode>init_hud();
+  <creationCode>
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>

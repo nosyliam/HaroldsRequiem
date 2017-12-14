@@ -10,6 +10,7 @@
   <persistent>false</persistent>
   <creationCode>global.game = instance_create(0, 0, controller_main)
 load_room();
+instance_create(150, 150, harold)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
