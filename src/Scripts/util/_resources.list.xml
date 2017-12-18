@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="check_collision" type="RESOURCE"/>
   <resource name="calculate_hud_position" type="RESOURCE"/>
   <resource name="combine_frames" type="RESOURCE"/>
   <resource name="create_enemy" type="RESOURCE"/>
