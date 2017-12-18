@@ -1,1 +1,6 @@
-exit;
+h_col1 = make_color_rgb(0, 204, 0)
+h_col2 = make_color_rgb(0, 153, 0)
+draw_rectangle_color(88, 309, 184, 313, h_col1, h_col1, h_col2, h_col2, false)
+s_col1 = make_color_rgb(0, 0, 214)
+s_col2 = make_color_rgb(0, 0, 163)
+draw_rectangle_color(88, 325, 184, 329, s_col1, s_col1, s_col2, s_col2, false)
