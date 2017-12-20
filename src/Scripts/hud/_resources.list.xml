@@ -3,4 +3,6 @@
   <resource name="draw_hud" type="RESOURCE"/>
   <resource name="init_hud" type="RESOURCE"/>
   <resource name="load_hud" type="RESOURCE"/>
+  <resource name="npc_text" type="RESOURCE"/>
+  <resource name="cutscene_text" type="RESOURCE"/>
 </resources>

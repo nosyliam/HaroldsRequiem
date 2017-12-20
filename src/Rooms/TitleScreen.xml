@@ -8,8 +8,8 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode>global.game = instance_create(0, 0, controller_main)
-load_room();
+  <creationCode>load_room();
+global.game = instance_create(0, 0, controller_main)
 instance_create(150, 180, harold)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
