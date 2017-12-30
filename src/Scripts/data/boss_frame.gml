@@ -1,6 +1,6 @@
 // creating a spritesheet from a spritesheet is difficult so we're going to
 // use draw_sprite_part instead
-switch argument0:
+switch argument0 {
     case 0:
         return combine_quad(0, 0, 48, 57); break
     case 1:
@@ -23,3 +23,4 @@ switch argument0:
         return combine_quad(428, 0, 41, 58); break
     case 10:
         return combine_quad(471, 0, 43, 58); break
+}
