@@ -2,7 +2,8 @@
 <resources>
   <resource name="draw_text_outline" type="RESOURCE"/>
   <resource name="check_collision" type="RESOURCE"/>
-  <resource name="combine_frames" type="RESOURCE"/>
+  <resource name="combine_numbers" type="RESOURCE"/>
+  <resource name="combine_quad" type="RESOURCE"/>
   <resource name="create_enemy" type="RESOURCE"/>
   <resource name="oid" type="RESOURCE"/>
 </resources>

@@ -2,4 +2,5 @@
 <resources>
   <resource name="controller_main" type="RESOURCE"/>
   <resource name="controller_hud" type="RESOURCE"/>
+  <resource name="controller_transition" type="RESOURCE"/>
 </resources>
