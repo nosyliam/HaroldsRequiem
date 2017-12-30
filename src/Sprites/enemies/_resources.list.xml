@@ -2,4 +2,5 @@
 <resources>
   <resource name="necromancer" type="RESOURCE"/>
   <resource name="skeleton" type="RESOURCE"/>
+  <resource name="zombie" type="RESOURCE"/>
 </resources>
