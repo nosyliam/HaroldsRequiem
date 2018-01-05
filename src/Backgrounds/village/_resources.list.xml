@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="village2" type="RESOURCE"/>
+  <resource name="village1_rot3" type="RESOURCE"/>
+  <resource name="village1_rot2" type="RESOURCE"/>
+  <resource name="village1_rot1" type="RESOURCE"/>
+  <resource name="village1_rot0" type="RESOURCE"/>
+</resources>

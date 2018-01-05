@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="tilesets" type="GROUP"/>
+  <resource name="castle" type="GROUP"/>
   <resource name="gui" type="GROUP"/>
+  <resource name="village" type="GROUP"/>
+  <resource name="hideout" type="GROUP"/>
 </resources>
