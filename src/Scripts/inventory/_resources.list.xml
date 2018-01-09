@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="init_img_list" type="RESOURCE"/>
+  <resource name="init_name_list" type="RESOURCE"/>
+  <resource name="add_item" type="RESOURCE"/>
+  <resource name="use_item" type="RESOURCE"/>
+  <resource name="drop_item" type="RESOURCE"/>
+  <resource name="create_item" type="RESOURCE"/>
+</resources>

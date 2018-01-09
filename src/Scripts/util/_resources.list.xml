@@ -5,5 +5,6 @@
   <resource name="combine_numbers" type="RESOURCE"/>
   <resource name="combine_quad" type="RESOURCE"/>
   <resource name="create_enemy" type="RESOURCE"/>
+  <resource name="mouse_collides" type="RESOURCE"/>
   <resource name="oid" type="RESOURCE"/>
 </resources>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <constants>
   <constant name="TYPE_PLAYER" value="1"/>
-  <constant name="TYPE_ENEMY" value="2"/>
+  <constant name="TYPE_NECROMANCER" value="2"/>
+  <constant name="TYPE_ZOMBIE" value="3"/>
+  <constant name="TYPE_SKELETON" value="4"/>
+  <constant name="ITEM_SHIELD" value="50"/>
+  <constant name="ITEM_GEM1" value="51"/>
+  <constant name="ITEM_GEM2" value="52"/>
+  <constant name="ITEM_GEM3" value="53"/>
   <constant name="ANIM_NEUTRAL" value="100"/>
   <constant name="ANIM_WALK" value="101"/>
   <constant name="ROOM_DEBUG" value="10005"/>

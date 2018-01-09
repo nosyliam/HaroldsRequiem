@@ -13,4 +13,5 @@
   <resource name="room" type="GROUP"/>
   <resource name="data" type="GROUP"/>
   <resource name="animations" type="GROUP"/>
+  <resource name="inventory" type="GROUP"/>
 </resources>

@@ -6,8 +6,7 @@ var fcurrent;
 compressed = global.game.animation_pool[argument0];
 fcurrent = global.game.animation_state_pool[argument0];
 fstart = compressed & $FF;
-fend = (compressed & ($FF << 8)) >> 8;
-show_debug_message(string(fend));
+fend = (compressed & $FF00) >> 8;
 if (fcurrent >= fend) {
     global.game.animation_state_pool[argument0] = fstart
     return fstart;

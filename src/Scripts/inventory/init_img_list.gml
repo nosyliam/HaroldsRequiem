@@ -1,0 +1,4 @@
+item_img_list[ITEM_SHIELD] = 0
+item_img_list[ITEM_GEM1] = 66
+item_img_list[ITEM_GEM2] = 67
+item_img_list[ITEM_GEM3] = 68
