@@ -1,1 +1,1 @@
-return argument0 > argument2 and argument0 < argument4 and argument1 > argument3 and argument1 < argument5
+return (argument0 > argument2 and argument0 < argument4 and argument1 > argument3 and argument1 < argument5)
