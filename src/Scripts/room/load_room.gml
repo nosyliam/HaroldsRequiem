@@ -1,2 +1,2 @@
-room_goto(transition_dest)
-current_room = transition_dest
+room_goto(global.game.transition_dest)
+current_room = global.game.transition_dest

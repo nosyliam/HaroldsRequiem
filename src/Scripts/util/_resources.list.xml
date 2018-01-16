@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="disable_hud" type="RESOURCE"/>
   <resource name="draw_text_outline" type="RESOURCE"/>
   <resource name="check_collision" type="RESOURCE"/>
   <resource name="combine_numbers" type="RESOURCE"/>

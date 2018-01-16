@@ -1,4 +1,8 @@
 total_ticks += 1;
-tick_controls();
-tick_mouse();
+if (!within_cutscene) {
+    tick_controls();
+    tick_mouse();
+} else {
+    script_execute(cutscene_script)
+}
 tick_text();

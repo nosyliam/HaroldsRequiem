@@ -13,12 +13,17 @@ item_selected = -1
 item_viewing = -1
 
 within_transition = false
-transition_dest = 0;
-transition_frame = 0;
+transition_dest = 0
+transition_frame = 0
+transition_wait = 0
 current_room = TitleScreen
 total_ticks = 0
 init_img_list();
 init_name_list();
+
+within_cutscene = false
+cutscene_script = 0
+cutscene_ticks = 0
 
 finished_text = false
 playing_text = false
@@ -28,13 +33,6 @@ text_cursor = 1
 current_text = ''
 pending_text = -1
 want_show_hud = true
+load_hud();
 init_hud();
 instance_create(0, 0, controller_hud) 
-
-create_item(ITEM_GEM2, 100, 100)
-create_item(ITEM_GEM3, 150, 100)
-create_item(ITEM_GEM3, 150, 100)
-create_item(ITEM_GEM1, 200, 100)
-create_item(ITEM_GEM3, 100, 150)
-create_item(ITEM_GEM2, 150, 200)
-create_item(ITEM_SHIELD, 150, 250)

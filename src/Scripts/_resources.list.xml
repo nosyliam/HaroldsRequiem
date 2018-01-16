@@ -2,6 +2,7 @@
 <resources>
   <resource name="init_avatar" type="RESOURCE"/>
   <resource name="init_game" type="RESOURCE"/>
+  <resource name="init_mainmenu" type="RESOURCE"/>
   <resource name="game_tick" type="RESOURCE"/>
   <resource name="draw_tick" type="RESOURCE"/>
   <resource name="ticks" type="GROUP"/>

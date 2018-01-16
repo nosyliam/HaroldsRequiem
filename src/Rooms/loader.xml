@@ -8,8 +8,11 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode>init_mainmenu()
-room_goto(loader)
+  <creationCode>global.game = instance_create(0, 0, controller_main)
+global.player = instance_create(0, 0, harold)
+disable_hud()
+room_transition(castle, 50)
+
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
