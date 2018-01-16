@@ -6,6 +6,7 @@ if (total_ticks mod 85 == 0 and finished_text = true) {
     }
     playing_text = false
     finished_text = false
+    text_offset = 0
     
     // For cutscenes only
     if (want_show_hud) {
@@ -13,7 +14,7 @@ if (total_ticks mod 85 == 0 and finished_text = true) {
     }
 }
 
-if (total_ticks mod 4 == 0 and playing_text = true) {
+if (total_ticks mod 2 == 0 and playing_text = true) {
     current_text += string_char_at(text_value, text_cursor)
     text_cursor += 1;
     if (text_cursor >= string_length(text_value)) {

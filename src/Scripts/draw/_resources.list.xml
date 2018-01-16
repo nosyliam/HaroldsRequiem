@@ -2,4 +2,5 @@
 <resources>
   <resource name="draw_objects" type="RESOURCE"/>
   <resource name="draw_player" type="RESOURCE"/>
+  <resource name="draw_transition" type="RESOURCE"/>
 </resources>

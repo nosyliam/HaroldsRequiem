@@ -1,3 +1,2 @@
-tile_layer_delete(100)
-load_hud();
-
+room_goto(transition_dest)
+current_room = transition_dest

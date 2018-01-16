@@ -12,6 +12,9 @@ item_name_list = ds_list_create()
 item_selected = -1
 item_viewing = -1
 
+within_transition = false
+transition_dest = 0;
+transition_frame = 0;
 current_room = TitleScreen
 total_ticks = 0
 init_img_list();
@@ -23,7 +26,7 @@ text_name = ''
 text_value = ''
 text_cursor = 1
 current_text = ''
-pending_text = 0
+pending_text = -1
 want_show_hud = true
 init_hud();
 instance_create(0, 0, controller_hud) 
