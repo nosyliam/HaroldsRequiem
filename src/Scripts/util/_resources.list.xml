@@ -5,11 +5,11 @@
   <resource name="check_collision" type="RESOURCE"/>
   <resource name="combine_numbers" type="RESOURCE"/>
   <resource name="combine_quad" type="RESOURCE"/>
-  <resource name="create_enemy" type="RESOURCE"/>
   <resource name="mouse_collides" type="RESOURCE"/>
   <resource name="get_packed_8" type="RESOURCE"/>
   <resource name="get_packed_16" type="RESOURCE"/>
   <resource name="get_packed_24" type="RESOURCE"/>
   <resource name="get_packed_32" type="RESOURCE"/>
   <resource name="oid" type="RESOURCE"/>
+  <resource name="rid" type="RESOURCE"/>
 </resources>

@@ -2,6 +2,9 @@ global.game = self
 type_pool = ds_map_create()
 animation_pool = ds_map_create()
 animation_state_pool = ds_map_create()
+animation_save_pool = ds_map_create()
+enemy_pool = ds_list_create()
+lock_pool = ds_map_create()
 event_pool = ds_map_create()
 text_queue = ds_list_create()
 

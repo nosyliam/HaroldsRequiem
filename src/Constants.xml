@@ -10,6 +10,7 @@
   <constant name="ITEM_GEM3" value="53"/>
   <constant name="ANIM_NEUTRAL" value="100"/>
   <constant name="ANIM_WALK" value="101"/>
+  <constant name="ANIM_SWING" value="102"/>
   <constant name="ROOM_DEBUG" value="10005"/>
   <constant name="ROOM_VILLAGE" value="10006"/>
   <constant name="ROOM_CASTLE" value="10007"/>

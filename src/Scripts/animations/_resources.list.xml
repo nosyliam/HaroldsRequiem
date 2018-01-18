@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="frames_necro" type="RESOURCE"/>
   <resource name="frames_harold" type="RESOURCE"/>
+  <resource name="frames_zombie" type="RESOURCE"/>
+  <resource name="frames_skele" type="RESOURCE"/>
   <resource name="get_frame_ranges" type="RESOURCE"/>
   <resource name="get_anim_frame" type="RESOURCE"/>
   <resource name="play_anim" type="RESOURCE"/>
+  <resource name="play_anim_once" type="RESOURCE"/>
 </resources>

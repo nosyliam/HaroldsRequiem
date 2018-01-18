@@ -1,6 +1,5 @@
-if (playing_text == true) {
-    exit;
-}
+if (playing_text == true) exit;
+
 if mouse_check_button_pressed(mb_left) {
     if (item_selected != -1) {
         if (ds_list_size(inventory_pool) >= 6) {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="draw_enemies" type="RESOURCE"/>
   <resource name="draw_objects" type="RESOURCE"/>
   <resource name="draw_player" type="RESOURCE"/>
   <resource name="draw_transition" type="RESOURCE"/>

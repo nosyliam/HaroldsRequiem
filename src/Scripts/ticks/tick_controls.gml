@@ -1,5 +1,10 @@
 player = instance_find(harold, 0)
-if (player == noone or playing_text == true) {
+if (player == noone or playing_text == true) exit
+if (lock_pool[oid(player.instance_id)] == 1) exit
+
+// SWING
+if keyboard_check_pressed(ord('Q')) {
+    play_anim_once(oid(player.instance_id), TYPE_PLAYER, ANIM_SWING, player.current_anim)
     exit;
 }
 
