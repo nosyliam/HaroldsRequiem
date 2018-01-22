@@ -8,4 +8,5 @@
   <resource name="get_anim_frame" type="RESOURCE"/>
   <resource name="play_anim" type="RESOURCE"/>
   <resource name="play_anim_once" type="RESOURCE"/>
+  <resource name="unlock_callback" type="RESOURCE"/>
 </resources>

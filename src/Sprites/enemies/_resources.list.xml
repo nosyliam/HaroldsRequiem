@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="necromancer" type="RESOURCE"/>
-  <resource name="skeleton" type="RESOURCE"/>
-  <resource name="zombie" type="RESOURCE"/>
+  <resource name="necromancers" type="RESOURCE"/>
+  <resource name="skeletons" type="RESOURCE"/>
+  <resource name="zombies" type="RESOURCE"/>
 </resources>

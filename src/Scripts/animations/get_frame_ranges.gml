@@ -7,6 +7,4 @@ switch (argument0) {
         return frames_zombie(argument1, argument2); break;
     case TYPE_SKELETON:
         return frames_skele(argument1, argument2); break;
-    case TYPE_ENEMY:
-        break;
 }
