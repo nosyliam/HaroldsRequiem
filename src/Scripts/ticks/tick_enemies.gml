@@ -5,4 +5,6 @@ for (n = 0; n < ds_list_size(enemy_pool); n += 1) {
         with(rid(enemy)) avhealth = $FFFF
     }
     tick_path(enemy)
+    tick_ai()
 }
+

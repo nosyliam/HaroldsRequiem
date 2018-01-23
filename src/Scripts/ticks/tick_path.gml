@@ -1,7 +1,7 @@
 with (rid(argument0)) {
     if (!on_path) {
         position = path_nearest(get_path(path), x, y)
-        path_start(get_path(path), 3, 0, true)
+        path_start(get_path(path), 1, 2, true)
         on_path = true
         path_position = position
     }

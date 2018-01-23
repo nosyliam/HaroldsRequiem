@@ -12,6 +12,7 @@ if (argument0 == TYPE_PLAYER) {
 } else {
     path = 0
     on_path = false
+    nearby_player = false
     avhealth = enemy_health(argument0)
     ds_list_add(global.game.enemy_pool, oid(id))
     play_anim(oid(id), argument0, ANIM_NEUTRAL, 2)

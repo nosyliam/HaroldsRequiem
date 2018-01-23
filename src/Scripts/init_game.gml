@@ -1,4 +1,5 @@
-global.game = self
+globalvar game;
+game = self;
 type_pool = ds_map_create()
 animation_pool = ds_map_create()
 animation_state_pool = ds_map_create()
@@ -8,6 +9,7 @@ lock_pool = ds_map_create()
 event_pool = ds_map_create()
 garbage_pool = ds_list_create()
 text_queue = ds_list_create()
+ai_grid = -1
 
 inventory_pool = ds_list_create()
 items_pool = ds_list_create()
@@ -37,6 +39,5 @@ text_cursor = 1
 current_text = ''
 pending_text = -1
 want_show_hud = false
-load_hud();
 init_hud();
 instance_create(0, 0, controller_hud) 
