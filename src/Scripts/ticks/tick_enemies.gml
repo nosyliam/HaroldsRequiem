@@ -4,4 +4,5 @@ for (n = 0; n < ds_list_size(enemy_pool); n += 1) {
         play_anim_once(enemy, TYPE_ZOMBIE, ANIM_DEATH, rid(enemy).current_dir);
         with(rid(enemy)) avhealth = $FFFF
     }
+    tick_path(enemy)
 }

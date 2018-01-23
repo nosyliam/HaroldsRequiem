@@ -4158,8 +4158,16 @@
     </tile>
     <tile>
       <background>enemy_map</background>
-      <backgroundPosition x="0" y="16"/>
-      <roomPosition x="216" y="552"/>
+      <backgroundPosition x="0" y="0"/>
+      <roomPosition x="96" y="336"/>
+      <size height="16" width="16"/>
+      <depth>20</depth>
+      <locked>false</locked>
+    </tile>
+    <tile>
+      <background>enemy_map</background>
+      <backgroundPosition x="0" y="0"/>
+      <roomPosition x="216" y="336"/>
       <size height="16" width="16"/>
       <depth>20</depth>
       <locked>false</locked>

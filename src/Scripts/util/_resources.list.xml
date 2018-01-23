@@ -12,7 +12,9 @@
   <resource name="get_packed_24" type="RESOURCE"/>
   <resource name="get_packed_32" type="RESOURCE"/>
   <resource name="get_path" type="RESOURCE"/>
+  <resource name="rmod" type="RESOURCE"/>
   <resource name="rot" type="RESOURCE"/>
+  <resource name="dir" type="RESOURCE"/>
   <resource name="oid" type="RESOURCE"/>
   <resource name="rid" type="RESOURCE"/>
 </resources>

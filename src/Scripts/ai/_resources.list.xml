@@ -3,4 +3,5 @@
   <resource name="populate_room" type="RESOURCE"/>
   <resource name="process_enemy_ai" type="RESOURCE"/>
   <resource name="process_boss_ai" type="RESOURCE"/>
+  <resource name="path_nearest" type="RESOURCE"/>
 </resources>

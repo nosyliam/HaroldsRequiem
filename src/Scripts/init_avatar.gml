@@ -3,6 +3,7 @@ global.game.animation_state_pool[oid(id)] = 0
 global.game.animation_save_pool[oid(id)] = -1
 global.game.type_pool[oid(id)] = argument0
 global.game.lock_pool[oid(id)] = -1
+type = argument0
 current_anim = 2
 current_dir = 2
 
