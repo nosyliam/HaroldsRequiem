@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="tick_cleanup" type="RESOURCE"/>
   <resource name="tick_controls" type="RESOURCE"/>
   <resource name="tick_enemies" type="RESOURCE"/>
   <resource name="tick_mouse" type="RESOURCE"/>

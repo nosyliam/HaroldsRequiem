@@ -3,4 +3,5 @@
   <resource name="objects_cutscene1" type="RESOURCE"/>
   <resource name="room_heights" type="RESOURCE"/>
   <resource name="boss_frame" type="RESOURCE"/>
+  <resource name="enemy_health" type="RESOURCE"/>
 </resources>

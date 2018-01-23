@@ -11,11 +11,14 @@ if (fcurrent >= fend) {
     if (animation_save_pool[argument0] != -1) {
         animation_pool[argument0] = animation_save_pool[argument0]
         animation_state_pool[argument0] = animation_save_pool[argument0] & $FF
-        lock_pool[argument0] = -1
-        
+
         ret = animation_save_pool[argument0] & $FF
         animation_save_pool[argument0] = -1
-        unlock_callback(argument0)
+        if (unlock_callback(argument0, lock_pool[argument0])) {
+            lock_pool[argument0] = -1
+            return fcurrent;
+        }
+        lock_pool[argument0] = -1
         return ret;
     } else {
         animation_state_pool[argument0] = fstart

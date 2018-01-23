@@ -6,6 +6,7 @@ animation_save_pool = ds_map_create()
 enemy_pool = ds_list_create()
 lock_pool = ds_map_create()
 event_pool = ds_map_create()
+garbage_pool = ds_list_create()
 text_queue = ds_list_create()
 
 inventory_pool = ds_list_create()
@@ -35,7 +36,7 @@ text_value = ''
 text_cursor = 1
 current_text = ''
 pending_text = -1
-want_show_hud = true
+want_show_hud = false
 load_hud();
 init_hud();
 instance_create(0, 0, controller_hud) 

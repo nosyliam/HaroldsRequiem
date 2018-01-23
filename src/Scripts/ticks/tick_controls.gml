@@ -1,6 +1,6 @@
 player = instance_find(harold, 0)
 if (player == noone or playing_text == true) exit
-if (lock_pool[oid(player.id)] == 1) exit
+if (lock_pool[oid(player.id)] != -1) exit
 
 // SWING
 if keyboard_check_pressed(ord('Q')) {
