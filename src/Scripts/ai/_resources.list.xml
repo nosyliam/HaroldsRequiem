@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="init_grid" type="RESOURCE"/>
   <resource name="populate_room" type="RESOURCE"/>
   <resource name="process_boss_ai" type="RESOURCE"/>
   <resource name="path_nearest" type="RESOURCE"/>

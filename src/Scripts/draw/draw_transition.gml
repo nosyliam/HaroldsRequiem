@@ -16,7 +16,7 @@ if (global.game.transition_frame < 50) {
     height = room_heights(global.game.transition_dest)
     player = instance_find(harold, 0)
     player.x = 152
-    player.y = height - 32
+    player.y = height - 48
     
     opacity = 1 - (global.game.transition_frame - (50 + offset)) * 0.02
 } else if (global.game.transition_frame == 100 + offset) {

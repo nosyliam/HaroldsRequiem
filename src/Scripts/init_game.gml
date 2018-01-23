@@ -9,7 +9,7 @@ lock_pool = ds_map_create()
 event_pool = ds_map_create()
 garbage_pool = ds_list_create()
 text_queue = ds_list_create()
-ai_grid = -1
+grid = 0;
 
 inventory_pool = ds_list_create()
 items_pool = ds_list_create()
