@@ -1,6 +1,5 @@
 var tile;
-mult = 16
-if (game.current_room != castle) mult = 24
+mult = 24
 
 for (w = 0; w < room_width; w += mult) {
     for (h = 0; h < room_height; h += mult) {  

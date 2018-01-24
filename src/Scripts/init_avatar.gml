@@ -9,8 +9,10 @@ current_dir = 2
 
 if (argument0 == TYPE_PLAYER) {
     globalvar player;
-    player = self;
+    player = self
     weapon_damage = 20
+    about_to_die = false
+    dying = false
 } else {
     path = 0
     on_path = false

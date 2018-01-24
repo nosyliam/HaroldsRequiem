@@ -1,5 +1,5 @@
 switch (argument0) {
     case castle: return 764; break;
-    default:
-        return 0
+    case village: return 764; break;
+    default: return 0;
 }

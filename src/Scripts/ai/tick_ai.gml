@@ -5,7 +5,7 @@ with (rid(argument0)) {
         if (cur_mag <= 20) {
             want_path = false
             tracking_player = false
-            dir_p = point_direction(x, y, player.x, player.y - 16) 
+            dir_p = point_direction(x, y, player.x, player.y - 12) 
             if (current_dir != dir(rmod(dir_p))) 
                 play_anim(oid(id), type, ANIM_NEUTRAL, dir(rmod(dir_p))); 
                 current_dir = dir(rmod(dir_p))

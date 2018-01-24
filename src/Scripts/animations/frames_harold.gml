@@ -27,6 +27,14 @@ switch (argument0) {
             case 4: return combine_numbers(3, 6); break;
         }
         break;
+    case ANIM_DEATH:
+        switch (argument1) {
+            case 1: return combine_numbers(48, 48); break;
+            case 2: return combine_numbers(70, 70); break;
+            case 3: return combine_numbers(86, 86); break;
+            case 4: return combine_numbers(74, 74); break;
+        }
+        break;
     default:
         break;
 }

@@ -22,6 +22,7 @@ within_transition = false
 transition_dest = 0
 transition_frame = 0
 transition_wait = 0
+death_frame = 0
 current_room = TitleScreen
 total_ticks = 0
 init_img_list();

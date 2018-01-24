@@ -15,8 +15,13 @@ if (game.transition_frame < 50) {
     
     height = room_heights(game.transition_dest)
     player = instance_find(harold, 0)
-    player.x = 152
+    player.x = spawn_x(game.transition_dest)
     player.y = height - 144
+    lock_pool[oid(player.id)] = -1
+    player.about_to_die = false
+    player.dying = false
+    player.health = 100
+    play_anim(oid(player.id), TYPE_PLAYER, ANIM_NEUTRAL, 1);
     
     opacity = 1 - (game.transition_frame - (50 + offset)) * 0.02
 } else if (game.transition_frame == 100 + offset) {

@@ -1,5 +1,6 @@
 if (game.within_transition) {
-    draw_transition()
+    if (player.dying) draw_death()
+    draw_transition() 
     exit
 }
 
@@ -21,7 +22,7 @@ if (game.playing_text == true) {
     exit;
 }
 
-hud_y = view_yview[0] + 385
+hud_y = view_yview[0] + 384
 hud_x = view_xview[0] + 88
 h_col1 = make_color_rgb(0, 204, 0)
 h_col2 = make_color_rgb(0, 153, 0)
@@ -30,4 +31,5 @@ s_col1 = make_color_rgb(0, 0, 214)
 s_col2 = make_color_rgb(0, 0, 163)
 draw_rectangle_color(hud_x, hud_y - 59, hud_x + ((96/game.maxstamina) * (game.stamina)), hud_y - 55, s_col1, s_col1, s_col2, s_col2, false)
 
+if (player.dying) draw_death()
 

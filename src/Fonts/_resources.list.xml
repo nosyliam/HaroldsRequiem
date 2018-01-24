@@ -3,4 +3,6 @@
   <resource name="itemf" type="RESOURCE"/>
   <resource name="dialog" type="RESOURCE"/>
   <resource name="dialog_speech" type="RESOURCE"/>
+  <resource name="death1" type="RESOURCE"/>
+  <resource name="death2" type="RESOURCE"/>
 </resources>
