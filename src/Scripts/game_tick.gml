@@ -8,3 +8,4 @@ if (!within_cutscene) {
 }
 tick_enemies();
 tick_text();
+

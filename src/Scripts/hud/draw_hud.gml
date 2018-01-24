@@ -1,5 +1,6 @@
 if (game.within_transition) {
     draw_transition()
+    exit
 }
 
 if (!game.want_show_hud) exit
@@ -19,11 +20,14 @@ if (game.playing_text == true) {
     draw_text_ext(64, 308 - game.text_offset, game.current_text, -1, 132)
     exit;
 }
+
+hud_y = view_yview[0] + 385
+hud_x = view_xview[0] + 88
 h_col1 = make_color_rgb(0, 204, 0)
 h_col2 = make_color_rgb(0, 153, 0)
-draw_rectangle_color(88, 309, 88 + ((96/game.maxhealth) * (game.health)), 313, h_col1, h_col1, h_col2, h_col2, false)
+draw_rectangle_color(hud_x, hud_y - 75, hud_x + ((96/game.maxhealth) * (game.health)), hud_y - 71, h_col1, h_col1, h_col2, h_col2, false)
 s_col1 = make_color_rgb(0, 0, 214)
 s_col2 = make_color_rgb(0, 0, 163)
-draw_rectangle_color(88, 325, 88 + ((96/game.maxstamina) * (game.stamina)), 329, s_col1, s_col1, s_col2, s_col2, false)
+draw_rectangle_color(hud_x, hud_y - 59, hud_x + ((96/game.maxstamina) * (game.stamina)), hud_y - 55, s_col1, s_col1, s_col2, s_col2, false)
 
 

@@ -133,7 +133,7 @@ tile_add(guimain, 176, 0, 16, 16, 160, 320, 99)
 tile_add(guimain, 240, 0, 16, 16, 176, 320, 99)
 tile_add(guimain, 240, 0, 16, 16, 176, 304, 99)
 
-if (want_show_hud) {
+if (game.want_show_hud) {
     tile_layer_hide(100)
     tile_layer_hide(99)
 }

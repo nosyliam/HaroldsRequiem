@@ -33,6 +33,7 @@ if keyboard_check(vk_up) {
         player.current_dir = 1
     }
     player.y -= 1
+    shift_hud(0, -1)
     exit;
 }
 if keyboard_check_released(vk_up) {
@@ -63,6 +64,7 @@ if keyboard_check(vk_down) {
         player.current_dir = 2
     }
     player.y += 1
+    shift_hud(0, 1)
     exit;
 }
 if keyboard_check_released(vk_down) {
@@ -71,7 +73,7 @@ if keyboard_check_released(vk_down) {
 
 // LEFT
 if keyboard_check_pressed(vk_left) {
-    if check_collision(180, player.x, player.y) {
+    if check_collision(180, player.x, player.y, 1) {
         exit;
     }
     play_anim(oid(player.id), TYPE_PLAYER, ANIM_WALK, 3);
@@ -79,7 +81,7 @@ if keyboard_check_pressed(vk_left) {
     player.current_dir = 3
 }
 if keyboard_check(vk_left) {
-    if check_collision(180, player.x, player.y) {
+    if check_collision(180, player.x, player.y, 1) {
         if (player.current_anim != -1) {
             play_anim(oid(player.id), TYPE_PLAYER, ANIM_NEUTRAL, 3);
         }
@@ -101,7 +103,7 @@ if keyboard_check_released(vk_left) {
 
 // RIGHT
 if keyboard_check_pressed(vk_right) {
-    if check_collision(0, player.x, player.y) {
+    if check_collision(0, player.x, player.y, 1) {
         exit;
     }
     play_anim(oid(player.id), TYPE_PLAYER, ANIM_WALK, 4);
@@ -109,7 +111,7 @@ if keyboard_check_pressed(vk_right) {
     player.current_dir = 4
 }
 if keyboard_check(vk_right) {
-    if check_collision(0, player.x, player.y) {
+    if check_collision(0, player.x, player.y, 1) {
         if (player.current_anim != -1) {
             play_anim(oid(player.id), TYPE_PLAYER, ANIM_NEUTRAL, 4);
         }

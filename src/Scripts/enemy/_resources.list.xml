@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="create_enemy" type="RESOURCE"/>
+  <resource name="tick_enemies" type="RESOURCE"/>
+  <resource name="tick_path" type="RESOURCE"/>
+  <resource name="enemy_damage" type="RESOURCE"/>
 </resources>

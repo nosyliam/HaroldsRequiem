@@ -38,6 +38,9 @@ text_value = ''
 text_cursor = 1
 current_text = ''
 pending_text = -1
-want_show_hud = false
-init_hud();
+
+want_show_hud = true
+last_view_x = 0
+last_view_y = 0
+init_hud()
 instance_create(0, 0, controller_hud) 

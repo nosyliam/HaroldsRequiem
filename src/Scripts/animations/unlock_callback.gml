@@ -5,6 +5,13 @@ switch (type_pool[argument0]) {
                 ds_list_add(global.game.garbage_pool, id)
             }
             return 1
+        } else if (argument1 == ANIM_SWING) {
+            with (rid(argument0)) {
+                coll = collision_line(x, y, x + lengthdir_x(48, rot(current_dir)), y + lengthdir_y(48, rot(current_dir)), harold, false, true)
+                if (coll) {
+                    game.health -= enemy_damage(type)
+                }
+            }   
         }
         break;
     case TYPE_PLAYER:

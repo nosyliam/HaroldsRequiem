@@ -2,4 +2,5 @@
 <resources>
   <resource name="room_transition" type="RESOURCE"/>
   <resource name="load_room" type="RESOURCE"/>
+  <resource name="room_loaded" type="RESOURCE"/>
 </resources>
