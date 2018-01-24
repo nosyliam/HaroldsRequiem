@@ -16,4 +16,5 @@
   <resource name="animations" type="GROUP"/>
   <resource name="inventory" type="GROUP"/>
   <resource name="enemy" type="GROUP"/>
+  <resource name="map" type="GROUP"/>
 </resources>

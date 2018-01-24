@@ -2,6 +2,19 @@ player = instance_find(harold, 0)
 if (player == noone or playing_text == true) exit
 if (lock_pool[oid(player.id)] != -1) exit
 
+// OPEN MAP
+if keyboard_check_pressed(ord('R')) {
+    if (!map_open) {
+        lock_pool[oid(player.id)] = 1
+        tile_layer_show(60)
+        map_open = true
+    } else {
+        lock_pool[oid(player.id)] = -1
+        tile_layer_hide(60)
+        map_open = false
+    }
+}
+
 // SWING
 if keyboard_check_pressed(ord('Q')) {
     play_anim(oid(player.id), TYPE_PLAYER, ANIM_NEUTRAL, player.current_dir);

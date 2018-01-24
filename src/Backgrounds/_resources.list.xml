@@ -4,5 +4,6 @@
   <resource name="gui" type="GROUP"/>
   <resource name="village" type="GROUP"/>
   <resource name="hideout" type="GROUP"/>
+  <resource name="map" type="GROUP"/>
   <resource name="enemy_map" type="RESOURCE"/>
 </resources>

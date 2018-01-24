@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="draw_map" type="RESOURCE"/>
+  <resource name="load_map" type="RESOURCE"/>
+  <resource name="tile_add_map" type="RESOURCE"/>
+</resources>

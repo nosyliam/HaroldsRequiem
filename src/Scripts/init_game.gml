@@ -40,6 +40,11 @@ text_cursor = 1
 current_text = ''
 pending_text = -1
 
+map_open = false
+location_selected = -1
+last_map_x = 0
+last_map_y = 0
+
 want_show_hud = true
 last_view_x = 0
 last_view_y = 0
