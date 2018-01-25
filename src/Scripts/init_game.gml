@@ -18,6 +18,8 @@ item_name_list = ds_list_create()
 item_selected = -1
 item_viewing = -1
 
+run_boost = 0
+
 within_transition = false
 transition_dest = 0
 transition_frame = 0

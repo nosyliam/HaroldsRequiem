@@ -14,6 +14,7 @@ if (argument0 == TYPE_PLAYER) {
     death_ts = 0
     about_to_die = false
     dying = false
+    running = false
 } else {
     path = 0
     on_path = false

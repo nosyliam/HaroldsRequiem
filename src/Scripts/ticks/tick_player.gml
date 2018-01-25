@@ -8,5 +8,9 @@ if (player.about_to_die and !player.dying and total_ticks - player.death_ts > 40
     death_frame = 0
     play_anim(oid(player.id), TYPE_PLAYER, ANIM_DEATH, player.current_dir);
     lock_pool[oid(player.id)] = 1
-
+    exit
 }
+
+if (run_boost and stamina > -10 and total_ticks mod 4 == 0) stamina -= 4
+if (!run_boost and stamina < maxstamina and total_ticks mod 4 == 0 ) stamina += 2
+ 

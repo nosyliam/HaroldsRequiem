@@ -23,6 +23,12 @@ if keyboard_check_pressed(ord('Q')) {
     exit;
 }
 
+// RUN
+if keyboard_check(vk_control) {
+    if (stamina > 0) run_boost = 2
+} else run_boost = 0
+if (stamina <= 0) run_boost = 0
+
 // UP
 if keyboard_check_pressed(vk_up) {
     if check_collision(90, player.x, player.y) {
@@ -46,7 +52,7 @@ if keyboard_check(vk_up) {
         player.current_anim = 1
         player.current_dir = 1
     }
-    player.y -= 1
+    player.y -= 1 + run_boost
     shift_hud()
     exit;
 }
@@ -77,7 +83,7 @@ if keyboard_check(vk_down) {
         player.current_anim = 2
         player.current_dir = 2
     }
-    player.y += 1
+    player.y += 1 + run_boost
     shift_hud()
     exit;
 }
@@ -108,7 +114,7 @@ if keyboard_check(vk_left) {
         player.current_anim = 3
         player.current_dir = 3
     }
-    player.x -= 1
+    player.x -= 1 + run_boost
     shift_hud()
     exit;
 }
@@ -139,7 +145,7 @@ if keyboard_check(vk_right) {
         player.current_anim = 4
         player.current_dir = 4
     }
-    player.x += 1
+    player.x += 1 + run_boost
     shift_hud()
     exit;
 }

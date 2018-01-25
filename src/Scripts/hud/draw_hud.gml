@@ -23,8 +23,8 @@ if (game.playing_text == true) {
     exit;
 }
 
-hud_y = view_yview[0] + 384
-hud_x = view_xview[0] + 88
+hud_y = game.last_view_y + 384
+hud_x = game.last_view_x + 88
 h_col1 = make_color_rgb(0, 204, 0)
 h_col2 = make_color_rgb(0, 153, 0)
 if (game.health > 0)
