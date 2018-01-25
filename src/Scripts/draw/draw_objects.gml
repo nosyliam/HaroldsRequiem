@@ -14,6 +14,7 @@ for (n = 0; n < ds_list_size(items_pool); n += 1) {
     draw_sprite_ext(items, item_img_list[iimg], ix, iy, 0.5, 0.5, 0, -1, 1)
     
     if (mouse_in_hud) continue;
+    if (map_open) continue;
     if mouse_collides(mouse_x, mouse_y, ix, iy, ix + 16, iy + 16) {
         item_selected = combine_numbers(n, iimg); selected_verify = combine_numbers(n, iimg);
         if mouse_collides(mouse_x, mouse_y, global.player.x - 60, global.player.y - 28, global.player.x + 12, global.player.y + 4) {

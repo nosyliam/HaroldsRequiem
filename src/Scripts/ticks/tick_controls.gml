@@ -1,6 +1,5 @@
 player = instance_find(harold, 0)
 if (player == noone or playing_text == true) exit
-if (lock_pool[oid(player.id)] != -1) exit
 
 // OPEN MAP
 if keyboard_check_pressed(ord('R')) {
@@ -14,6 +13,8 @@ if keyboard_check_pressed(ord('R')) {
         map_open = false
     }
 }
+
+if (lock_pool[oid(player.id)] != -1) exit
 
 // SWING
 if keyboard_check_pressed(ord('Q')) {
@@ -46,7 +47,7 @@ if keyboard_check(vk_up) {
         player.current_dir = 1
     }
     player.y -= 1
-    shift_hud(0, -1)
+    shift_hud()
     exit;
 }
 if keyboard_check_released(vk_up) {
@@ -77,7 +78,7 @@ if keyboard_check(vk_down) {
         player.current_dir = 2
     }
     player.y += 1
-    shift_hud(0, 1)
+    shift_hud()
     exit;
 }
 if keyboard_check_released(vk_down) {
@@ -108,6 +109,7 @@ if keyboard_check(vk_left) {
         player.current_dir = 3
     }
     player.x -= 1
+    shift_hud()
     exit;
 }
 if keyboard_check_released(vk_left) {
@@ -138,6 +140,7 @@ if keyboard_check(vk_right) {
         player.current_dir = 4
     }
     player.x += 1
+    shift_hud()
     exit;
 }
 if keyboard_check_released(vk_right) {

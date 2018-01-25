@@ -11,6 +11,7 @@ if (argument0 == TYPE_PLAYER) {
     globalvar player;
     player = self
     weapon_damage = 20
+    death_ts = 0
     about_to_die = false
     dying = false
 } else {

@@ -1,6 +1,22 @@
 if (playing_text == true) exit;
 
 if mouse_check_button_pressed(mb_left) {
+    if (location_selected != -1) {
+        if (can_visit(location_selected) != 1) {
+            text_offset = 12
+            if (can_visit(location_selected) == -2)
+                npc_text("", "You fail to understand the map through the thick fog. You'll need a key of some sort to magnify it.")
+                exit
+            
+            npc_text("", "As hard as you try, you can't seem to figure out how to get there.") 
+            exit;
+        }
+        tile_layer_hide(60)
+        map_open = false
+        room_transition(location_selected, 100)
+        location_selected = -1
+        exit
+    }
     if (item_selected != -1) {
         if (ds_list_size(inventory_pool) >= 6) {
             text_offset = 10

@@ -4,4 +4,5 @@
   <resource name="tick_controls" type="RESOURCE"/>
   <resource name="tick_mouse" type="RESOURCE"/>
   <resource name="tick_text" type="RESOURCE"/>
+  <resource name="tick_player" type="RESOURCE"/>
 </resources>

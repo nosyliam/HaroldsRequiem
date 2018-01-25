@@ -7,5 +7,6 @@ if (!within_cutscene) {
     script_execute(cutscene_script)
 }
 tick_enemies();
+tick_player();
 tick_text();
 

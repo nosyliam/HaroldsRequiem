@@ -5,6 +5,8 @@
   <resource name="castle" type="RESOURCE"/>
   <resource name="village" type="RESOURCE"/>
   <resource name="hideout" type="RESOURCE"/>
+  <resource name="neccastle" type="RESOURCE"/>
+  <resource name="cave" type="RESOURCE"/>
   <resource name="test" type="RESOURCE"/>
   <resource name="map_store" type="RESOURCE"/>
 </resources>

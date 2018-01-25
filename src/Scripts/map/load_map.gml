@@ -182,5 +182,4 @@ tile_add_map(map_detail, 32, 80, 112, 176, 16, 16, 60)
 tile_add_map(map_detail, 32, 80, 96, 176, 16, 16, 60)
 tile_add_map(map_detail, 32, 80, 224, 208, 16, 16, 60)
     
-//tile_layer_hide(60)
-tile_layer_shift(60, 0, 384)
+tile_layer_hide(60)

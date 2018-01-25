@@ -2,5 +2,6 @@
 <resources>
   <resource name="draw_map" type="RESOURCE"/>
   <resource name="load_map" type="RESOURCE"/>
-  <resource name="tile_add_map" type="RESOURCE"/>
+  <resource name="can_visit" type="RESOURCE"/>
+  <resource name="show_label" type="RESOURCE"/>
 </resources>

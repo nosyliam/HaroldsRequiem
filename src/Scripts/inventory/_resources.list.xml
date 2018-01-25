@@ -7,4 +7,5 @@
   <resource name="drop_item" type="RESOURCE"/>
   <resource name="create_item" type="RESOURCE"/>
   <resource name="can_use" type="RESOURCE"/>
+  <resource name="has_item" type="RESOURCE"/>
 </resources>

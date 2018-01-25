@@ -1,4 +1,4 @@
-if (total_ticks mod 85 == 0 and finished_text = true) {
+if (total_ticks mod 100 == 0 and finished_text = true) {
     if (pending_text >= 0) {
         npc_text(text_name, string(text_queue[pending_text]))
         pending_text -= 1
