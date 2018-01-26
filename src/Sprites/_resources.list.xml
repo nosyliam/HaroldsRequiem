@@ -4,4 +4,5 @@
   <resource name="items" type="GROUP"/>
   <resource name="enemies" type="GROUP"/>
   <resource name="boss" type="GROUP"/>
+  <resource name="mainmenu" type="GROUP"/>
 </resources>

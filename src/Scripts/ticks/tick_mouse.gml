@@ -13,7 +13,7 @@ if mouse_check_button_pressed(mb_left) {
         }
         tile_layer_hide(60)
         map_open = false
-        room_transition(location_selected, 200)
+        room_transition(location_selected, 500)
         location_selected = -1
         exit
     }

@@ -27,6 +27,7 @@ transition_wait = 0
 death_frame = 0
 current_room = TitleScreen
 total_ticks = 0
+cutscene_state = 0
 init_img_list();
 init_name_list();
 

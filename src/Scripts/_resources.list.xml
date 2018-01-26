@@ -5,6 +5,7 @@
   <resource name="init_mainmenu" type="RESOURCE"/>
   <resource name="game_tick" type="RESOURCE"/>
   <resource name="draw_tick" type="RESOURCE"/>
+  <resource name="menu" type="GROUP"/>
   <resource name="ticks" type="GROUP"/>
   <resource name="cutscenes" type="GROUP"/>
   <resource name="util" type="GROUP"/>

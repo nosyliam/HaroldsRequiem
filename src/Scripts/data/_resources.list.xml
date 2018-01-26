@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="objects_cutscene1" type="RESOURCE"/>
   <resource name="room_heights" type="RESOURCE"/>
   <resource name="spawn_x" type="RESOURCE"/>
   <resource name="boss_frame" type="RESOURCE"/>
   <resource name="path_hideout" type="RESOURCE"/>
   <resource name="get_path" type="RESOURCE"/>
+  <resource name="spawn_objects" type="RESOURCE"/>
 </resources>

@@ -8,16 +8,15 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode>init_mainmenu()
-room_goto(loader)
+  <creationCode>instance_create(0, 0, controller_titlescreen)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
   <backgrounds>
     <backgroundDef>
-      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
       <isForeground>false</isForeground>
-      <backgroundImage/>
+      <backgroundImage>main_menu</backgroundImage>
       <offset x="0" y="0"/>
       <speed x="0" y="0"/>
       <tileHorizontally>true</tileHorizontally>

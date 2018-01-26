@@ -6,4 +6,5 @@
   <resource name="hideout" type="GROUP"/>
   <resource name="map" type="GROUP"/>
   <resource name="enemy_map" type="RESOURCE"/>
+  <resource name="main_menu" type="RESOURCE"/>
 </resources>

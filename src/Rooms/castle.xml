@@ -12,7 +12,7 @@
 init_grid();
 populate_room();
 disable_hud();
-// execute_cutscene(cutscene1)
+execute_cutscene(cutscene1)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
