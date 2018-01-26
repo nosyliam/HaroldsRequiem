@@ -13,4 +13,4 @@ if (player.about_to_die and !player.dying and total_ticks - player.death_ts > 40
 
 if (run_boost and stamina > -10 and total_ticks mod 4 == 0) stamina -= 4
 if (!run_boost and stamina < maxstamina and total_ticks mod 4 == 0 ) stamina += 2
- 
+if (health < maxhealth and total_ticks mod 40 == 0) health += 1

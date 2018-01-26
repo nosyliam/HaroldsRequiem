@@ -10,7 +10,7 @@
   <persistent>false</persistent>
   <creationCode>global.game = instance_create(0, 0, controller_main)
 global.player = instance_create(0, 0, harold)
-//disable_hud()
+disable_hud()
 room_transition(castle, 50)
 
 </creationCode>

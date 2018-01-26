@@ -2,5 +2,6 @@
 <resources>
   <resource name="harold" type="RESOURCE"/>
   <resource name="zombie" type="RESOURCE"/>
+  <resource name="skeleton" type="RESOURCE"/>
   <resource name="base_enemy" type="RESOURCE"/>
 </resources>

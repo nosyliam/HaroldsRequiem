@@ -28,7 +28,7 @@ with (rid(argument0)) {
             tracking_player = true
         }
     } else {
-        nearby_player = (point_distance(x, y, player.x, player.y) < 150)
+        nearby_player = (point_distance(x, y, player.x, player.y) < 90)
         if (nearby_player) path_end();
     }
 }

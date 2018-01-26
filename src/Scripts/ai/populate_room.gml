@@ -7,6 +7,7 @@ for (w = 0; w < room_width; w += mult) {
         if (tile) {
             switch (tile_get_left(tile) / mult) {
                 case 0: create_enemy(w, h, TYPE_ZOMBIE, tile_get_top(tile) / mult) break;
+                case 1: create_enemy(w, h, TYPE_SKELETON, tile_get_top(tile) / mult) break;
             }
         }
     }

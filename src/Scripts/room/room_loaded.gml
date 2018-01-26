@@ -5,4 +5,5 @@ game.last_view_y = room_height - 384
 tile_layer_shift(100, 0, room_heights(room) - 384)
 tile_layer_shift(99, 0, room_heights(room) - 384)
 tile_layer_shift(60, 0, room_heights(room) - 384)
+tile_layer_hide(20)
 

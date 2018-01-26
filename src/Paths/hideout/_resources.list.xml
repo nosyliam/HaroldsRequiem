@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="hideout_1" type="RESOURCE"/>
+  <resource name="hideout_2" type="RESOURCE"/>
+  <resource name="hideout_3" type="RESOURCE"/>
+  <resource name="hideout_4" type="RESOURCE"/>
+  <resource name="hideout_5" type="RESOURCE"/>
+  <resource name="hideout_6" type="RESOURCE"/>
+  <resource name="hideout_7" type="RESOURCE"/>
+  <resource name="hideout_8" type="RESOURCE"/>
+</resources>

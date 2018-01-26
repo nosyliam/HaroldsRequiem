@@ -3,7 +3,7 @@
   <useAsTileset>true</useAsTileset>
   <tiles>
     <size height="24" width="24"/>
-    <offset x="5" y="5"/>
+    <offset x="5" y="4"/>
     <separation x="0" y="0"/>
   </tiles>
   <preload>false</preload>

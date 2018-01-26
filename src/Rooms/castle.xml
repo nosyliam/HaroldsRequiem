@@ -11,7 +11,7 @@
   <creationCode>room_loaded();
 init_grid();
 populate_room();
-enable_hud();
+disable_hud();
 // execute_cutscene(cutscene1)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
@@ -4637,46 +4637,6 @@ enable_hud();
       <roomPosition x="264" y="24"/>
       <size height="24" width="24"/>
       <depth>100005</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>enemy_map</background>
-      <backgroundPosition x="0" y="0"/>
-      <roomPosition x="96" y="528"/>
-      <size height="16" width="16"/>
-      <depth>20</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>enemy_map</background>
-      <backgroundPosition x="0" y="0"/>
-      <roomPosition x="96" y="408"/>
-      <size height="16" width="16"/>
-      <depth>20</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>enemy_map</background>
-      <backgroundPosition x="0" y="16"/>
-      <roomPosition x="168" y="432"/>
-      <size height="16" width="16"/>
-      <depth>20</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>enemy_map</background>
-      <backgroundPosition x="0" y="0"/>
-      <roomPosition x="96" y="336"/>
-      <size height="16" width="16"/>
-      <depth>20</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>enemy_map</background>
-      <backgroundPosition x="0" y="0"/>
-      <roomPosition x="216" y="336"/>
-      <size height="16" width="16"/>
-      <depth>20</depth>
       <locked>false</locked>
     </tile>
   </tiles>

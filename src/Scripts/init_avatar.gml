@@ -16,7 +16,6 @@ if (argument0 == TYPE_PLAYER) {
     dying = false
     running = false
 } else {
-    path = 0
     on_path = false
     want_path = true
     nearby_player = false

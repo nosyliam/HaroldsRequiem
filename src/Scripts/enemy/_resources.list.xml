@@ -4,4 +4,5 @@
   <resource name="tick_enemies" type="RESOURCE"/>
   <resource name="tick_path" type="RESOURCE"/>
   <resource name="enemy_damage" type="RESOURCE"/>
+  <resource name="enemy_health" type="RESOURCE"/>
 </resources>

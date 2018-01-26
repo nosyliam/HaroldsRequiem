@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<path>
+  <points>
+    <point speed="100" x="528" y="216"/>
+    <point speed="100" x="528" y="240"/>
+    <point speed="100" x="528" y="264"/>
+    <point speed="100" x="528" y="288"/>
+    <point speed="100" x="528" y="312"/>
+    <point speed="100" x="528" y="336"/>
+    <point speed="100" x="528" y="360"/>
+    <point speed="100" x="528" y="384"/>
+    <point speed="100" x="552" y="384"/>
+    <point speed="100" x="576" y="384"/>
+    <point speed="100" x="600" y="384"/>
+    <point speed="100" x="624" y="384"/>
+    <point speed="100" x="648" y="384"/>
+    <point speed="100" x="672" y="384"/>
+    <point speed="100" x="696" y="384"/>
+    <point speed="100" x="720" y="384"/>
+    <point speed="100" x="744" y="384"/>
+    <point speed="100" x="768" y="384"/>
+    <point speed="100" x="792" y="384"/>
+    <point speed="100" x="792" y="360"/>
+    <point speed="100" x="792" y="336"/>
+    <point speed="100" x="792" y="312"/>
+    <point speed="100" x="792" y="288"/>
+    <point speed="100" x="792" y="264"/>
+    <point speed="100" x="792" y="240"/>
+    <point speed="100" x="792" y="216"/>
+    <point speed="100" x="768" y="216"/>
+    <point speed="100" x="744" y="216"/>
+    <point speed="100" x="720" y="216"/>
+    <point speed="100" x="696" y="216"/>
+    <point speed="100" x="672" y="216"/>
+    <point speed="100" x="648" y="216"/>
+    <point speed="100" x="624" y="216"/>
+    <point speed="100" x="600" y="216"/>
+    <point speed="100" x="576" y="216"/>
+    <point speed="100" x="552" y="216"/>
+  </points>
+  <backgroundRoom>hideout</backgroundRoom>
+  <closed>true</closed>
+  <precision>4</precision>
+  <smooth>false</smooth>
+  <snap x="24" y="24"/>
+</path>

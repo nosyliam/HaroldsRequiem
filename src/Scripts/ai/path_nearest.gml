@@ -17,6 +17,7 @@ for(i = 1; i < n; i += 1) {
     y2 = path_get_point_y(argument0, i);
 
     td = point_distance(x1, y1, x2, y2);
+    if (td == 0) td = 1
     p = ((x2 - x1) * (argument1 - x1) + (y2 - y1) * (argument2 - y1)) / td;
 
     if p > 0 and p < td {

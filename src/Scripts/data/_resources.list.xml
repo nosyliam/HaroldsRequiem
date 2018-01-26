@@ -4,5 +4,6 @@
   <resource name="room_heights" type="RESOURCE"/>
   <resource name="spawn_x" type="RESOURCE"/>
   <resource name="boss_frame" type="RESOURCE"/>
-  <resource name="enemy_health" type="RESOURCE"/>
+  <resource name="path_hideout" type="RESOURCE"/>
+  <resource name="get_path" type="RESOURCE"/>
 </resources>
