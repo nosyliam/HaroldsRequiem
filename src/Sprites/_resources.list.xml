@@ -5,4 +5,6 @@
   <resource name="enemies" type="GROUP"/>
   <resource name="boss" type="GROUP"/>
   <resource name="mainmenu" type="GROUP"/>
+  <resource name="king" type="RESOURCE"/>
+  <resource name="queen" type="RESOURCE"/>
 </resources>

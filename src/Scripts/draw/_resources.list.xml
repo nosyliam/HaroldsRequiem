@@ -4,4 +4,5 @@
   <resource name="draw_objects" type="RESOURCE"/>
   <resource name="draw_player" type="RESOURCE"/>
   <resource name="draw_death" type="RESOURCE"/>
+  <resource name="draw_finish" type="RESOURCE"/>
 </resources>

@@ -1,3 +1,4 @@
+game.within_cutscene = false
 if (game.want_show_hud) load_hud()
 load_map()
 game.last_view_x = 0

@@ -1,3 +1,8 @@
+if (game.game_finished) {
+    draw_finish()
+    exit
+}
+
 if (game.within_transition) {
     if (player.dying) draw_death()
     draw_transition() 
@@ -8,7 +13,7 @@ draw_map()
 if (!game.want_show_hud) exit
 for (n = 0; n < ds_list_size(game.inventory_pool); n += 1) {
     item = ds_list_find_value(game.inventory_pool, n)
-    draw_sprite_ext(items, game.item_img_list[item], 230 + ((n mod 3) * 32), 294 + (floor(n / 3) * 32), 0.65, 0.65, 0, -1, 1)
+    draw_sprite_ext(items, game.item_img_list[item], view_xview[0] + 230 + ((n mod 3) * 32), view_yview[0] + 294 + (floor(n / 3) * 32), 0.65, 0.65, 0, -1, 1)
 }
 
 if (game.playing_text == true) {

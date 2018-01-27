@@ -25,21 +25,24 @@ transition_dest = 0
 transition_frame = 0
 transition_wait = 0
 death_frame = 0
+win_frame = 0
 current_room = TitleScreen
 total_ticks = 0
 cutscene_state = 0
+visited_village = false
+game_finished = false
 init_img_list();
 init_name_list();
 
 within_cutscene = false
 cutscene_script = 0
-cutscene_ticks = 0
 
 finished_text = false
 playing_text = false
 text_name = ''
 text_value = ''
 text_cursor = 1
+text_offset = 0
 current_text = ''
 pending_text = -1
 
@@ -53,3 +56,5 @@ last_view_x = 0
 last_view_y = 0
 init_hud()
 instance_create(0, 0, controller_hud) 
+
+create_item(ITEM_GEM3, 240, 48, hideout)

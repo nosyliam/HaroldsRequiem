@@ -7,11 +7,11 @@ mouse_in_hud = mouse_collides(mouse_x, mouse_y, 32, 272, 320, 352);
 selected_verify = 0;
 for (n = 0; n < ds_list_size(items_pool); n += 1) {
     item = ds_list_find_value(items_pool, n)
-    if (get_packed_32(item) >> 24 != current_room) continue;
+    if (get_packed_32(item) != room) continue;
     iimg = get_packed_8(item);
-    ix = get_packed_16(item);
+    ix = room_width - get_packed_16(item);
     iy = get_packed_24(item);
-    draw_sprite_ext(items, item_img_list[iimg], ix, iy, 0.5, 0.5, 0, -1, 1)
+    draw_sprite_ext(items, item_img_list[iimg], ix, iy, 1, 1, 0, -1, 1)
     
     if (mouse_in_hud) continue;
     if (map_open) continue;

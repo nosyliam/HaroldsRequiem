@@ -6,4 +6,5 @@
   <resource name="death1" type="RESOURCE"/>
   <resource name="death2" type="RESOURCE"/>
   <resource name="helpfont_desc" type="RESOURCE"/>
+  <resource name="win" type="RESOURCE"/>
 </resources>

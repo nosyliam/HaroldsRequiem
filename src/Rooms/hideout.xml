@@ -13,6 +13,8 @@ room_loaded();
 init_grid();
 populate_room();
 
+game.text_offset = 15
+npc_text("", "You hear an ominous calling. The gem is in the hideout somewhere. (Top right corner)")
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>
@@ -16786,23 +16788,7 @@ populate_room();
     <tile>
       <background>hideout1</background>
       <backgroundPosition x="101" y="340"/>
-      <roomPosition x="912" y="1536"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>hideout1</background>
-      <backgroundPosition x="101" y="340"/>
       <roomPosition x="960" y="1296"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>hideout1</background>
-      <backgroundPosition x="77" y="364"/>
-      <roomPosition x="864" y="1536"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>
@@ -24915,14 +24901,6 @@ populate_room();
       <background>hideout1</background>
       <backgroundPosition x="101" y="340"/>
       <roomPosition x="1488" y="432"/>
-      <size height="24" width="24"/>
-      <depth>1000000</depth>
-      <locked>false</locked>
-    </tile>
-    <tile>
-      <background>hideout1</background>
-      <backgroundPosition x="101" y="340"/>
-      <roomPosition x="1536" y="480"/>
       <size height="24" width="24"/>
       <depth>1000000</depth>
       <locked>false</locked>

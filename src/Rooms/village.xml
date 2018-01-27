@@ -12,6 +12,12 @@
 init_grid();
 populate_room();
 enable_hud();
+
+if (!game.visited_village) {
+    game.text_offset = 15
+    npc_text("", "Begin your journey by going to the ruined hideout. Open your map by pressing R")
+    game.visited_village = true
+}
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
   <drawBackgroundColor>true</drawBackgroundColor>

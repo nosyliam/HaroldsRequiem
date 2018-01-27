@@ -6,8 +6,8 @@ repeat (16) {
     c -= 1
 }
 argument_count = c + 1
-for (i = 1; i < argument_count; i += 1) {
-    game.text_queue[argument_count - i - 1] = argument[i]
+for (i = 2; i < argument_count; i += 1) {
+    game.text_queue[argument_count - i] = argument[i]
 }
-game.pending_text = argument_count - 3
-npc_text(argument[0], string(text_queue[pending_text]))
+game.pending_text = argument_count - 2
+npc_text(argument[0], argument1)

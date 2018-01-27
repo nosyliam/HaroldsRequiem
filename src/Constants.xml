@@ -11,6 +11,7 @@
   <constant name="ITEM_KEY_NEC" value="54"/>
   <constant name="ITEM_KEY_SKEL" value="55"/>
   <constant name="ITEM_KEY_ZOM" value="56"/>
+  <constant name="ITEM_POTION" value="57"/>
   <constant name="ANIM_NEUTRAL" value="100"/>
   <constant name="ANIM_WALK" value="101"/>
   <constant name="ANIM_SWING" value="102"/>

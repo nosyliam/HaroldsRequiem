@@ -15,6 +15,9 @@ if (argument0 == TYPE_PLAYER) {
     about_to_die = false
     dying = false
     running = false
+    add_item(ITEM_POTION)
+    add_item(ITEM_POTION)
+    add_item(ITEM_POTION)
 } else {
     on_path = false
     want_path = true

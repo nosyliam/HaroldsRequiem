@@ -4,4 +4,6 @@
   <resource name="zombie" type="RESOURCE"/>
   <resource name="skeleton" type="RESOURCE"/>
   <resource name="base_enemy" type="RESOURCE"/>
+  <resource name="king" type="RESOURCE"/>
+  <resource name="queen" type="RESOURCE"/>
 </resources>

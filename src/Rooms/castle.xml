@@ -4,14 +4,13 @@
   <size height="764" width="384"/>
   <grid>
     <isometric>false</isometric>
-    <snap x="24" y="24"/>
+    <snap x="1" y="1"/>
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
   <creationCode>room_loaded();
 init_grid();
 populate_room();
-disable_hud();
 execute_cutscene(cutscene1)
 </creationCode>
   <backgroundColor>C0C0C0</backgroundColor>
@@ -149,7 +148,20 @@ execute_cutscene(cutscene1)
       <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
     </view>
   </views>
-  <instances/>
+  <instances>
+    <instance>
+      <object>queen</object>
+      <position x="239" y="156"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>king</object>
+      <position x="133" y="174"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+  </instances>
   <tiles>
     <tile>
       <background>castle_interior</background>
